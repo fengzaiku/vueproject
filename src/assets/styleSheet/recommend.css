@@ -1,0 +1,114 @@
+.recommend,.hotKey,.hotList{
+	width:100%;
+}
+.recommend{
+	height:100%;
+}
+.hotKey{
+	background-color:#fff;
+}
+.hotKey h2{
+	width: 100%;
+	text-align: center;
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+}
+.carousel-swiper img{
+	width:100%;
+}
+.mypagination{
+	position: absolute;
+    bottom: 10px;
+    z-index: 11;
+    text-align: center;
+}
+
+.mypagination .swiper-pagination-bullet-active{
+	background-color: #fff;
+}
+.hotSongList{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.hotSongList li{
+	width:50%;
+}
+.songListLeft{
+	position: relative;
+}
+.songListLeft,.songListLeft img{
+	width: 100%;
+}
+.songListLeft p{
+	position: absolute;
+	left:10px;
+	bottom:5px;
+	display: flex;
+	font-size:14px;
+	color:#fff;
+}
+.songListLeft p img{
+	width:15px;
+	height: 15px;
+	margin-right:5px;
+}
+.songListRight figcaption{
+	font-size:14px; 
+	line-height:19px;
+	color:#000;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.songListRight address{
+	font-size: 16px;
+	line-height:20px;
+	color:#666;
+}
+.songListRight{
+	padding:5px;
+}
+.mvSongList{
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.mvSongList li{
+	display:flex;
+	width:100%;
+	margin-bottom: 10px;
+	background-color: #fff;
+	align-items: center;
+	border-radius:5px;
+}
+.mvListLeft{
+	width:65%;
+	/*max-height:150px;*/
+	overflow: hidden;
+	margin-right:10px;
+}
+.mvListLeft img{
+	width:100%;
+}
+.mvListRight{
+	flex-grow: 1;
+	width:100%;
+}
+.mvListRight h3{
+	font-size:18px;
+	line-height:21px;
+	color:#000;
+}
+.mvListRight p{
+	font-size:14px;
+	line-height:18px;
+	color:#999;
+}
+/*.mvListRight h3,.mvListRight p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}*/

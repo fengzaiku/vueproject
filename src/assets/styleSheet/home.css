@@ -1,0 +1,45 @@
+.homeBox{
+	width:100%;
+	padding:60px 0 50px;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.homeBox .swiper-pagination{
+	display: flex;
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 111;
+	width: 100%;
+}
+.homeBox .swiper-pagination span{
+	flex-grow:1;
+}
+
+.homeBox .tab-name{
+	width:100%;
+	height:100%;
+	border-radius:0;
+	background-color:#fff;
+	margin:0!important;
+	opacity:1;
+	text-align: center;
+	line-height: 50px;
+	font-size:16px;
+	border:none;
+	color:#999;
+}
+.homeBox .swiper-pagination{
+	height:50px;
+}
+.homeBox .slide-Box{
+	padding-top:50px;
+	box-sizing: border-box;
+}
+.slide-Box .swiper-slide{
+	height: auto;
+}
+.tab-name.swiper-pagination-bullet-active{
+	color:#000;
+}

@@ -1,0 +1,70 @@
+.Rank,.RanList{
+	width:100%;
+	box-sizing: border-box;
+}
+.RanList{
+	padding:10px;
+}
+.RanList li{
+	display: flex;
+	border-radius:5px;
+	overflow: hidden;
+	background-color:#fff;
+	margin-bottom:10px;
+}
+.rankLest{
+	width:100px;
+	height:100px;
+	position: relative;
+}
+
+.rankRight{
+	width: 100%;
+	box-sizing: border-box;
+	flex-grow:1;
+	padding:10px;
+}
+.rankLest span{
+	position: absolute;
+    bottom: 3px;
+    left: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.rankLest img{
+	width: 100px;    
+}
+.rankRight dt{
+	font-size:18px;
+	line-height:21px;
+	color:#333;
+}
+.rankRight dd{
+	display: flex;
+	font-size: 14px;
+	color:#333;
+	line-height: 19px;
+}
+.rankRight dd address{
+	color:#999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

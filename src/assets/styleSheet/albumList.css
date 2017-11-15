@@ -1,0 +1,79 @@
+
+.albumBox{
+	width:100%;
+	box-sizing: border-box;
+	height:100%;
+	overflow: hidden;
+	padding-bottom:50px;
+	background-color: #fff;
+}
+
+.albumBox .swiper-wrapper{
+	height: auto;
+	position:static;
+}
+.albumBg{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	filter:blur(30px);
+}
+.albumListPage{
+	background-color: rgba(255,255,255,.8);
+	width:100%;
+	padding:60px 10px 20px;
+	z-index: 1;
+}
+.albumFigure{
+	display: flex;
+	width:100%;
+
+}
+.albumFigure img{
+	width: 110px;
+	height: 110px;
+}
+.albumFigure h3{
+	font-size:18px;
+}
+.albumFigure p,.albumFigure span{
+	font-size:12px;
+	line-height: 18px;
+	color:#999;
+}
+.albumFigure figcaption{
+	padding:10px 0 0 10px;
+	box-sizing: border-box;
+}
+.albumPageList{
+	margin-top:10px;
+}
+.albumPageList li{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	border-top:1px solid #eee;
+	height: 40px;
+	padding:5px;
+}
+.albumPageList li h3{
+	font-size: 18px;
+	line-height:20px;
+}
+.albumPageList li p{
+	font-size: 12px;
+	line-height:18px;
+	color:#999;
+}
+.albumPageList li img{
+	width: 20px;
+	cursor: pointer;
+}
+.albumSwiperBox{
+	width: 100%;
+	height: 100%;
+}
+
+
+

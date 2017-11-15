@@ -1,0 +1,41 @@
+#play-bar{
+	position: fixed;
+	/*left:0;*/
+	bottom:0;
+	width: 100%;
+	z-index: 111;
+}
+.play-bar{
+	width: 100%;
+	display: flex;
+	align-items:center;
+	cursor: pointer;
+	height: 50px;
+	border-top:1px solid #eee;
+	background-color:#fff;
+}
+.play-bar img:first-child{
+	width: 38px;
+	margin-left:20px;
+	border-radius: 4px;
+}
+.play-bar p{
+	flex-grow: 1;
+	width: 100%;
+	margin-left:10px;
+	box-sizing: border-box;
+}
+.play-bar img:last-child{
+	width: 25px;
+	margin-right: 20px;
+}
+
+@media  screen and (min-width:70vh) {
+  #play-bar{
+    width: 70vh;
+    margin:0 auto;
+  }
+}
+
+
+

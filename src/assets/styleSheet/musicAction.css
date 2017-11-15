@@ -1,0 +1,61 @@
+
+.musicAction{
+	position: fixed;
+	left:0;
+	top:0;
+	bottom:0;
+	right: 0;
+	background-color: rgba(0,0,0,.6);
+	z-index:1111;
+}
+.actionList{
+	width: 100%;
+	background-color: #bbb;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+.actionList dd{
+	border-bottom: 1px solid #eee;
+}
+.actionList dd:last-child{
+	border-bottom: none;
+}
+.actionList dd,.actionList dt{
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	padding:10px 0;
+	font-size: 18px;
+	color:#000;
+	cursor: pointer;
+}
+.actionList dd p{
+	font-size: 12px;
+	color:#666;
+}
+.actionList dt{
+	margin-top:10px;
+}
+@media  screen and (min-width:70vh) {
+  .musicAction{
+    width: 70vh;
+    margin:0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

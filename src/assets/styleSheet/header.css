@@ -1,0 +1,121 @@
+.search{
+  width: 100%;
+  height: 60px;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-o-flex;
+  display: flex;
+  flex-direction:row;
+  background-color: #fff;
+  align-items: center;
+  padding-right: 10px;
+   box-sizing: border-box;
+}
+.searchInput{
+  width: 100%;
+  border-radius:5px;
+  background-color: #eee;
+  margin:10px;
+  display: flex;
+  align-items: center;
+    height: 40px;
+}
+.searchInput img{
+  width:30px;
+  height: 30px;
+  margin:0 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+.searchInput form,.searchInput input{
+  width: 100%;
+  height: 100%;
+  border-radius:5px;
+  background-color: #eee;
+  font-size: medium;
+  flex-grow:1;
+  -webkit-box-flex:0;
+}
+.header{
+  position:fixed;
+  left:0;
+  top:0;
+  width: 100%;
+  z-index: 111;
+}
+.search button{
+  width: 0px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin:10px auto;
+  font-size: 14px;
+  line-height: 40px;
+  cursor: pointer;
+  transition:all 0.3s ease;
+  overflow: hidden;
+}
+.search .cancelButShow{
+  width: 40px;
+}
+.searchHistory,.hotList{
+  display: flex;
+  /*flex-direction:column;*/
+  flex-wrap: wrap
+}
+.searchHistory{
+  word-break: break-all;
+  overflow: hidden;
+  max-height: 68px;
+  overflow: hidden;
+}
+.HotBox{
+  width: 100%;
+  background-color: #fff;
+}
+.searchHistory li{
+  padding:3px;
+  border-radius:7px;
+  font-size: 14px;
+  border:1px solid #333;
+  cursor: pointer;
+  margin:5px;
+}
+.hotList li{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0 10px;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.hotList li span:nth-child(1){
+  padding-right:10px;
+}
+.hotList li span:nth-child(2){
+  flex-grow: 1;
+}
+.albumReturn{
+  width: 100%;
+  background-color:rgba(255,255,255,.8);
+  padding:10px 20px;
+  box-sizing: border-box;
+  height:60px;
+  display: flex;
+  align-items: center;
+}
+.albumReturn button{
+  padding:5px 5px 5px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  background:url("../image/icon-back.svg") no-repeat left center;
+  background-size:20px 20px;
+  cursor: pointer;
+}
+@media  screen and (min-width:70vh) {
+  .search,.HotBox,.albumReturn{
+    width: 70vh;
+    margin:0 auto;
+  }
+}
